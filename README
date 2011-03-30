@@ -12,6 +12,12 @@ This program takes an unlimited number of command-line inputs from the user and,
  All subsequent inputs are taken as the heights of respective bars. Colors for the
  bars are randomly generated and will be different every time the program is run
  (in the sense that ever color in a finite repertoire is equally likely to occur
-each time the porgram is run).
+each time the program is run).
 
 EXAMPLES
+So, for example, if we were to run the program with command-line parameters 
+300 400 23 455 56, the program would create a graph window of width 300, 
+height 400, and consecutive, randomly colored bars of heights scaled proportional 
+to a maximum height of 380 (i.e. the raw height 455 would be scaled down to 380,
+and the two subsequent bars would be carry the same height relative to the tallest 
+bar as they originally did).
