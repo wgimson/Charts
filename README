@@ -1,0 +1,17 @@
+INFORMATION
+William Gimson
+03-30-2011
+CSc 2310
+Project1-CSc 2310
+
+
+DESCRIPTION
+This program takes an unlimited number of command-line inputs from the user and,
+ using Processing, generates a bar graph from the provided information. The first
+ two inputs are used for the width and height of the graph window, respectively.
+ All subsequent inputs are taken as the heights of respective bars. Colors for the
+ bars are randomly generated and will be different every time the program is run
+ (in the sense that ever color in a finite repertoire is equally likely to occur
+each time the porgram is run).
+
+EXAMPLES
